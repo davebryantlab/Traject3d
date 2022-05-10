@@ -1,6 +1,6 @@
 # Traject3d
 
-## CellProfiler: 
+## CellProfiler 
 Directory contains a zip file comprised of two CellProfiler pipelines (one per experimental replicate of the test dataset) for segmenting images, tracking objects between frames, and generating measurements of size, shape, and movement. The rules for user-defined state classifications (Round, Spread, Spindle) are also provided as a text file, which may be loaded into the FilterObjects modules of the pipelines. This directory also contains a PDF file showing the settings used to analyse the sample datasets.
 
 ## KNIME
