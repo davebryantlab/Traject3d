@@ -1,7 +1,7 @@
 # Traject3d
 
 ## CellProfiler 
-Directory contains a zip file comprised of two CellProfiler pipelines (one per experimental replicate of the test dataset) for segmenting images, tracking objects between frames, and generating measurements of size, shape, and movement. The rules for user-defined state classifications (Round, Spread, Spindle) are also provided as a text file, which may be loaded into the FilterObjects modules of the pipelines. This directory also contains a PDF file showing the settings used to analyse the sample datasets.
+Directory contains a zip file comprised of two CellProfiler pipelines (one per experimental replicate of the test dataset) for segmenting images, tracking objects between frames, and generating measurements of size, shape, and movement, in addition to the rules for user-defined state classifications (Round, Spread, Spindle). The rules for user-defined state classification are provided as a text file, which may be loaded into the FilterObjects modules of the pipelines. This directory also contains a PDF file showing the settings used to analyse the sample datasets, and a template experiment key.
 
 ## KNIME
 Directory contains KNIME pipeline and associated user manual for software setup, running instructions and tips. Expected installation and set-up time for all dependencies is approximately 2 hours.  The KNIME pipeline was tested on a machine running Windows 10, with 64GB RAM and an Intel Core i7-7740X CPU @ 4.30GHz processor. Expected runtime of the sample data on a machine with similar CPU specifications is approximately 4 hours for all components of the pipeline. Most users will typically only run either the user-defined or data-driven sections, not both.
