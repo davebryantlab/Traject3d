@@ -9,7 +9,7 @@ Directory contains KNIME pipeline and associated user manual (as well as Conda e
 Expected installation and set-up time for all dependencies is approximately 2 hours.  The KNIME pipeline was tested on a machine running Windows 10, with 64GB RAM and an Intel Core i7-7740X CPU @ 4.30GHz processor. Expected runtime of the sample data on a machine with similar CPU specifications is approximately 4 hours for all components of the pipeline. Most users will typically only run either the user-defined or data-driven sections, not both.
 
 ## Sample data 
-Sample data (ExampleshRNA_live cysts.zip) and expected output (ExpectedOutput.zip) can be obtained from the following URL: https://www.dropbox.com/sh/igfpnt174l14ftc/AADq5B6RapGfJ16VOjTawUq9a?dl=0
+Sample data (ExampleshRNA_live cysts.zip) and expected output (ExpectedOutput.zip) can be obtained [here](https://gla-my.sharepoint.com/:f:/g/personal/david_bryant_glasgow_ac_uk/EqgjpKXmBjhCgXFQiROJikEBsW5_6RA4KXa1tnpIxmgzPQ?e=MwmxeM).
 
 After KNIME (with R and Python integrations) set-up, open the provided pipeline (Traject3D_v1.knwf) in KNIME. Uncompress ExampleshRNA_live cysts.zip and load the resulting "ExampleshRNA_live cysts" directory into the first node/component of the pipeline. This is a dummy dataset containing a scrambled shRNA control sample ("Scramble"), and two shRNAs ("shRNA_1", "shRNA_2"). Two experimental replicates were performed, each with four wells per condition, which were imaged hourly for 2 days (48hrs). The images were segmented, and acini tracked using CellProfiler. A user-defined shape classification ("Round", "Spindle", "Spread") was also applied. We provide the output from this CellProfiler analysis.
 
